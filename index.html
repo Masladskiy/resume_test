@@ -6,36 +6,49 @@
     <title>Резюме IT специалиста</title>
         <meta name="keywords" content="Резюме, резюме Дениса Маслядского, Резюме IT специалиста, найти программиста">
             <meta name="description" content="Резюме самого лучшего IT специалиста в сфере разработки и создания сайтов">
-</head>
+        <link rel="stylesheet" href="01.css">
+    </head>
 <body>
+
+<div class="container">
+
     <!-- Пораграфы и ссылки -->
-    <p> <img src="https://sun9-80.userapi.com/impf/c855720/v855720487/9a2af/F2ZpdfVvgAU.jpg?size=720x960&quality=96&sign=569b3c6c0ff3c49d826970a3fc1958ff&type=album" alt="Аватарка" width="10%"></p>
-    <h1> Денис  Маслядский</h1>
-    <p>Люблю <em> компьютерные игры </em>и изучаю <strong>программирование </strong></p>
-    <h3>Список социальных сетей</h3>
-    <a href="https://vk.com/masladskiy" target="_blank">Vk</a> | <a href="https://www.youtube.com/@masladskiy" target="_blank">YouTube</a>
+    <div class="info">
+            
+    <p> <img class="ava" src="https://sun9-80.userapi.com/impf/c855720/v855720487/9a2af/F2ZpdfVvgAU.jpg?size=720x960&quality=96&sign=569b3c6c0ff3c49d826970a3fc1958ff&type=album" alt="Аватарка"></p>
+    
+        <div class="info-text">
+            <h1> Денис  Маслядский</h1>
+
+            <p>Люблю <em> компьютерные игры </em>и изучаю <strong>программирование </strong> Успокоитель тихого океана и моляр черного моря.</p>
+
+            <h2>Список социальных сетей</h2>
+            <a href="https://vk.com/masladskiy" target="_blank">Vk</a> | <a href="https://www.youtube.com/@masladskiy" target="_blank">YouTube</a>
+        </div>
+    </div>
 
         <!-- Списки --> 
-    <h2>Список моих хобби</h2>
-
+<div class="card bg1 list">
+    <h2>Мои хобби</h2>
     <p>
-       <ul>
+       <ol class="txt" type="1">
         <li>Горные лыжи</li>
         <li>Компьютерные игры</li>
         <li>Страйкбол</li>
-       </ul>
+       </ol>
     </p>
+</div>
 
-
-        <!-- Таблица -->
+     <!-- Таблица -->
+<div class="card bg2 table">
      <h2>Опыт работы</h2>
      <!-- Это шапка твблицы-->
-<table border="3" width="50%">
-<thead>
+<table  class="txt">
+<!-- <thead>
 <th>Место работы</th>
 <th>Должность</th>
 <th>Время работы</th>
-</thead>
+</thead> -->
     <!-- Это тело таблицы -->
 <tbody>
 <td>АртКластер</td>
@@ -51,29 +64,35 @@
     <td>3 года, 4 месяца</td>
     </tbody>
     </table>
+</div>
 
+<div class="card bg3"></form>
     <!-- Форма обратной связи -->
-    <h2>Связаться со мной</h2>
-    <form>
 
-        <div>
+    <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+
+                    <div class="form-row">
+        <div class="form-group">
 <label for="name">Ваше имя:</label>
 <input type="name" id="name" placeholder="Введите ваше имя">
         </div>
 
-        <div>
-<label for="email" width="100">Ваш email:</label>
+        <div class="form-group">
+<label for="email">Ваш email:</label>
 <input type="email" id="email" placeholder="Введите ваш Email">
         </div>
-
-        <div>
+                    </div> 
+        <div class="form-group">
 <label for="message">Ваше сообщение...</label>
 <br>
 <textarea name="message" placeholder="Введите ваше сообщение" cols="10" rows="5"></textarea>
         </div>
-<button>Отправить</button>
-        </div>
+<button class="btn" type="submit" >Отправить</button>
         </form>
+    </div>
+
+</div>
 
 </body>
 </html>

@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: Tinos, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #0F141E;
+    background: #F1F1F1;
+    padding-bottom: 45px;
+}
+
+.info {
+    margin-bottom: 20px;
+    color: rgb(0, 82, 158);
+    padding-left: 34px;
+    display: flex;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #0F141E;
+    margin: 0;
+}
+
+.info-text h2 {
+    margin-bottom: 10px;
+}
+
+/* .zagolovok {
+    color: rgb(250, 107, 6);
+    padding-left: 15px;
+} */
+
+.txt {
+    color: rgb(18, 18, 66);
+    padding-left: 15px;
+}
+
+.txt li {
+    padding-left: 10px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(8, 75, 105);
+    border-left: 2px solid rgb(8, 75, 105);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: rgb(0, 132, 255);
+    padding-left: 15px;
+}
+
+.bg1 {
+background: #93fce5;
+}
+
+.bg2 {
+    background: #8bcaf5;
+}
+
+.bg3 {
+    background: #ddb8ff;
+}
+
+/* .container { */
+    /* max-width: 90%%; */
+    /* margin: auto; */
+    /* padding: 8px; */
+    /* margin: 8px; */
+    /* padding-left: 15px; */
+/* } */
+
+.container ol {
+    padding-left: 40px;
+}
+
+.ava {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.90);
+    width: 200px;
+    border-radius: 30px;
+    margin-right: 24px;
+}
+
+.ava img:hover {
+    image-orientation: flip;
+}
+
+.btn {
+    font-size: 18px;
+    background: hwb(41 19% 1%);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(255, 135, 23);
+    color: rgb(255, 255, 255);
+    transition: all 0.2s;
+    font-size: 19px;
+}
+
+.btn:active {
+    background: green;
+}
+
+a {
+    font-size: 20px;
+    color: rgb(97, 0, 224);
+    text-decoration: none; /* убирает подчеркивание */
+}
+
+a:hover {
+    font-size: 22px;
+    transition: all 0.2s;
+    color: red;
+    text-decoration: underline;
+
+}
+
+a:active {
+    color: green;
+}
+
+/* a:visited {
+    color: #ff0040;
+} */
+
+.list {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* 
+.list ol li:first-child {
+    padding-bottom: 20px;
+}
+
+.list ol li:nth-child(2) {
+background: violet;
+}
+
+.list ol li:last-child {
+    font-size: 30px;
+} */
+
+.table thead {
+    font-size: 20px;
+    text-align: left;
+}
+
+/* .table tbody td:nth-child(odd) {
+    background: rgb(0, 0, 255);
+} */
+
+.table td {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #4b0a0a;
+}
+
+.table td:nth-child(1) {
+    font-weight: 900;
+}
+
+/* .box {
+    display: inline;
+}
+
+.box img, a, h1, p, h2 {
+    display: inline;
+    margin: 40px auto;
+} */
+
+.container h2 {
+    /* Это выравнивание */
+    text-align: left;
+}
+
+.form-group label {
+    /* Перенос на новую строку */
+    display: block;
+    font-size: 18px;
+    color: #4b0a0a;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group{
+margin-right: 20px;
+width: 50%;
+/* width: calc(50% - 20px) */
+/* display: inline-block; */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    /* Удаление границы */
+    border: none;
+    /* Убирает подложку, для того что бы наложить на свой фон */
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    color: black;
+    padding: 15px 0 10px;
+    /* Убирает синюю акантовку обьекта при наведении мышки */
+    outline: none;
+    font-family: inherit;
+}
+
+@media (max-width: 600px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        margin-bottom: 15px;
+        width: 100%;
+        margin-right: 0px;
+    }
+}
+
+
+    @media (max-width: 600px) {
+        .container {
+            padding: 10px;
+            text-align: left;
+            font-size: 16px;
+        }
+    }
+    
+    .ava {
+        @media (max-width: 600px) {
+        width: 150px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .container h1 {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .container h2 {
+            font-size: 18px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .btn {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width:600px) {
+        .info {
+            display: block;
+        }
+    }
