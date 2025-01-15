@@ -7,6 +7,12 @@ body {
     color: #0F141E;
     background: #F1F1F1;
     padding-bottom: 45px;
+    /* background-image: url(https://repository-images.githubusercontent.com/796179298/f5de6550-0db2-4ced-928b-d35d9f52ba9a);
+    background-size: contain;
+    background-position: 0.1rem; */
+    background-image: linear-gradient(to left, gold, #ffffff);
+
+
 }
 
 .info {
@@ -51,6 +57,7 @@ body {
     border-radius: 20px;
     padding: 15px 20px;
     margin-bottom: 20px;
+
     border-bottom: 2px solid rgb(8, 75, 105);
     border-left: 2px solid rgb(8, 75, 105);
 }
@@ -138,10 +145,7 @@ a:active {
     color: #ff0040;
 } */
 
-.list {
-    padding: 10px;
-    margin-bottom: 10px;
-}
+
 /* 
 .list ol li:first-child {
     padding-bottom: 20px;
@@ -278,4 +282,11 @@ width: 50%;
         .info {
             display: block;
         }
+    }
+
+    @media (max-width: 600px) {
+        body {
+            background-image: url(https://sun1-24.userapi.com/impg/WaJor0ViBzOqiCmG4HwjGofnUdhBSRllXFunpw/JtG8LScup98.jpg?size=1300x868&quality=95&sign=316d7cf908a36079a1cdcd9eb56cc4e9&type=album);
+        }
+        
     }
